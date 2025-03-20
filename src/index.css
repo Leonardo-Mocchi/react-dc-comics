@@ -10,26 +10,26 @@
 }
 
 body {
-  margin: 18px 320px;
+  margin: 0 320px;
 }
 
 /* #endregion common */
 /* #region mediascreen */
 @media screen and (max-width: 992px) {
   body {
-    margin: 18px 160px;
+    margin: 0 160px;
   }
 }
 
 @media screen and (max-width: 768px) {
   body {
-    margin: 18px 80px;
+    margin: 0 80px;
   }
 }
 
 @media screen and (max-width: 576px) {
   body {
-    margin: 10px 20px;
+    margin: 0 20px;
   }
 }
 
