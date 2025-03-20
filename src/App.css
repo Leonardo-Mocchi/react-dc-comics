@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#site_map {
+  align-self: center;
+  display: flex;
+  gap: 1rem;
+}

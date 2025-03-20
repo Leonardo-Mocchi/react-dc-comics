@@ -1,0 +1,36 @@
+/* #region common */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  list-style: none;
+}
+
+body {
+  margin: 18px 320px;
+}
+
+/* #endregion common */
+/* #region mediascreen */
+@media screen and (max-width: 992px) {
+  body {
+    margin: 18px 160px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 18px 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 10px 20px;
+  }
+}
+
+/* #endregion mediascreen */
