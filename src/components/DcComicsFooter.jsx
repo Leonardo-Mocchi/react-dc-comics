@@ -5,9 +5,6 @@ import YoutubeLogo from "../assets/img/footer-youtube.png"
 import PinterestLogo from "../assets/img/footer-pinterest.png"
 import PeriscopeLogo from "../assets/img/footer-periscope.png"
 
-
-
-
 function DcFooter() {
 
     return (
