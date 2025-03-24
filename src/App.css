@@ -151,10 +151,34 @@ footer {
 
 
 #footer_social {
-  height: 110px;
   background-color: var(--dc_dark_subtler);
   z-index: 1000;
 
+  .page_margins {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-size: 16px;
+      font-weight: 700;
+      border: 3px solid var(--dc_blue);
+      padding: 0.75rem;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+
+      p {
+        color: var(--dc_blue);
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
 }
 
 /* #endregion footer */
