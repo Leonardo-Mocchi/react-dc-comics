@@ -4,15 +4,16 @@ import ShopLocator from '../assets/img/buy-comics-shop-locator.png'
 import Subscription from '../assets/img/buy-comics-subscriptions.png'
 import DcVisa from '../assets/img/buy-dc-power-visa.svg'
 
-function DcJumbotron() {
+function DcComicsMain() {
 
     return (
-        <div id="jumbotron" >
+        <main>
             <div id="jumbotron_content" >
                 <div className="page_margins">
                     <h1> -- Content goes here -- </h1>
                 </div>
             </div>
+
             <div id="jumbotron_links_section">
                 <div className="page_margins">
                     <ul id="jumbotron_links">
@@ -39,8 +40,8 @@ function DcJumbotron() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </main>
     )
 }
 
-export default DcJumbotron
+export default DcComicsMain

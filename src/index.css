@@ -2,6 +2,8 @@
 :root {
   --dc_blue: #0282f9;
   --dc_dark: #1c1c1c;
+  --dc_dark_subtler: #303030;
+
   --test: red;
 }
 
@@ -13,7 +15,6 @@
   font-optical-sizing: auto;
   font-weight: 400;
   list-style: none;
-  color: var(--dc_dark);
 }
 
 .page_margins {

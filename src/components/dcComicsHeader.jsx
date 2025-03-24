@@ -8,34 +8,53 @@ function DcHeader() {
             <img height={82} src={DcLogo} alt="" />
 
             <ul id='site_map'>
-                <li> CHARACTERS
+                <li>
+                    <p>CHARACTERS</p>
                     <div className='highlight_bar'></div>
                 </li>
-                <li>COMICS
-                    <div id='active_bar' className='highlight_bar'></div>
-                </li>
-                <li>MOVIES
+
+                <li id='active_element'>
+                    <p>COMICS</p>
                     <div className='highlight_bar'></div>
                 </li>
-                <li>TV
+
+                <li>
+                    <p>MOVIES</p>
                     <div className='highlight_bar'></div>
                 </li>
-                <li>GAMES
+
+                <li>
+                    <p>TV</p>
                     <div className='highlight_bar'></div>
                 </li>
-                <li>COLLECTIBLES
+
+                <li>
+                    <p>GAMES</p>
                     <div className='highlight_bar'></div>
                 </li>
-                <li>VIDEOS
+
+                <li>
+                    <p>COLLECTIBLES</p>
                     <div className='highlight_bar'></div>
                 </li>
-                <li>FANS
+
+                <li>
+                    <p>VIDEOS</p>
                     <div className='highlight_bar'></div>
                 </li>
-                <li>NEWS
+
+                <li>
+                    <p>FANS</p>
                     <div className='highlight_bar'></div>
                 </li>
-                <li>SHOP
+
+                <li>
+                    <p>NEWS</p>
+                    <div className='highlight_bar'></div>
+                </li>
+
+                <li>
+                    <p>SHOP</p>
                     <div className='highlight_bar'></div>
                 </li>
             </ul>

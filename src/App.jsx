@@ -1,9 +1,9 @@
 /* import { useState } from 'react' */
 import DcHeader from "./components/DcComicsHeader"
+import DcJumbotron from "./components/DcComicsMain"
+import DcFooter from "./components/DcComicsFooter"
+
 import './App.css'
-import DcJumbotron from "./components/DcComicsJumbotron"
-import DcBottomlinks from "./components/DcComicsLinks"
-import DcFooter from "./components/DcFooter"
 
 function App() {
 
@@ -11,7 +11,6 @@ function App() {
     <>
       <DcHeader />
       <DcJumbotron />
-      <DcBottomlinks />
       <DcFooter />
     </>
   )
