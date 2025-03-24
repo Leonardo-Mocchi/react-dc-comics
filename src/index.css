@@ -1,4 +1,10 @@
 /* #region common */
+:root {
+  --dc_blue: #0282f9;
+  --dc_dark: #1c1c1c;
+  --test: red;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,28 +13,29 @@
   font-optical-sizing: auto;
   font-weight: 400;
   list-style: none;
+  color: var(--dc_dark);
 }
 
-body {
+.page_margins {
   margin: 0 320px;
 }
 
 /* #endregion common */
 /* #region mediascreen */
 @media screen and (max-width: 992px) {
-  body {
+  .page_margins {
     margin: 0 160px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  .page_margins {
     margin: 0 80px;
   }
 }
 
 @media screen and (max-width: 576px) {
-  body {
+  .page_margins {
     margin: 0 20px;
   }
 }
