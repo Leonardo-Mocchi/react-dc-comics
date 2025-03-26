@@ -87,11 +87,9 @@ main {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-evenly;
-  background-color: var(--dc_dark);
 }
 
 .card {
-  background-color: var(--dc_dark_subtler);
   width: 185px;
   margin-top: 20px;
 
