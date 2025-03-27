@@ -1,6 +1,6 @@
 import DcComicsMainComicsArea from "./DcComicsMainComicsArea"
 
-function DcComicsMainJumbotron() {
+function DcComicsMainJumbotron({ comics }) {
 
     return (
         <div>
@@ -9,7 +9,7 @@ function DcComicsMainJumbotron() {
                 <div className="page_margins">
                     <div id="current_series_tag">CURRENT SERIES</div>
 
-                    <DcComicsMainComicsArea />
+                    <DcComicsMainComicsArea comics={comics} />
 
                     <button id="load_more_btn" type="button">LOAD MORE</button>
                 </div>

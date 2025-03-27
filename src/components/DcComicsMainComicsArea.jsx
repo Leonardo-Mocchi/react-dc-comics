@@ -1,15 +1,11 @@
 import ComicCard from "./DcComicsMainCard"
-import comics from "../data/comics"
 
-function DcComicsMainComicsArea() {
+function DcComicsMainComicsArea({ comics }) {
 
     return (
         <div id="comics_cards">
             {comics.map((comic) => (
-                <ComicCard
-                    thumb={comic.thumb}
-                    series={comic.series}
-                />
+                <ComicCard key={comic.id} thumb={comic.thumb} series={comic.series} />
             ))}
         </div>
     )
