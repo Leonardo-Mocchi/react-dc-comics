@@ -85,13 +85,13 @@ main {
 #comics_cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 22px;
   justify-content: space-evenly;
 }
 
 .card {
   width: 185px;
-  margin-top: 20px;
+  margin-top: 22px;
 
 
   img {
